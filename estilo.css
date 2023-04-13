@@ -94,3 +94,167 @@ a{
   box-shadow: 0px 0px
   15px #2f4f4f 0px 0px 15px white;
 }
+
+.rectangulo{
+    position: absolute;
+    z-index: -1;
+    width: 300px; 
+    height: 600px; 
+    background: linear-gradient(70deg, #154200,#154200,#206401);
+    border-bottom-right-radius: 250px;
+    right: 10vh;
+}
+
+.texto-about-us{
+    width: 60vh;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.texto-about-us h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: darkslategrey;
+}
+
+.texto-about-us p{
+    margin-top: 30px;
+}
+.cuadro-about1{
+    margin-top: -350px;
+ }
+ 
+ .cuadro-about1, .cuadro-about2, .cuadro-about3{
+    background-color: white;
+    border: solid 2px darkslategrey;
+    width: 400px;
+    text-align: end;
+    margin-left: 110vh; 
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 10px darkslategrey;
+ }
+ 
+ .cuadro-about2, .cuadro-about3{
+     margin-top: 40px;
+ }
+ 
+ .cuadro-about1 p, .cuadro-about2 p, .cuadro-about3 p, .cuadro-about1 h2, .cuadro-about2 h2, .cuadro-about3 h2{
+     margin-right: 20px;
+ }
+ 
+ .cuadro-about1 p, .cuadro-about2 p, .cuadro-about3 p{
+     margin-top: 10px;
+ }
+ 
+ .aboutus1{
+     height: 70px;
+     border-radius: 10px;
+     float: left;
+     margin-top: 15px;
+ }
+ 
+ .aboutus2{
+     height: 70px;
+     border-radius: 10px;
+     float: left;
+     margin-top: 5px;
+ }
+ 
+ .aboutus3{
+     height: 70px;
+     border-radius: 10px;
+     float: left;
+     margin-top: 5px;
+ }
+
+ .offers{
+    display: flex;
+    padding: 15vh;
+    background-color:  whitesmoke; 
+    position: absolute;
+    z-index: -2;
+}
+
+.paginas h4{
+    display:inline-block;
+     height: 60px;
+     margin-left: 100px;
+}
+
+.offers h1{
+    display: block;
+}
+
+.titulo{
+     display:inline-block;
+     height: 60px;
+     margin-left: 100px;
+}
+
+.titulo h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: darkslategrey;
+    margin-left: 55vh;
+    position: absolute;
+}
+
+
+.offers1{
+    display: flex;
+    margin-top: 100px;
+    margin-left: -45px;
+}
+
+.offers1 p, .offers1 h1{
+    margin-right: 100px;
+}
+
+.offers1 p{
+    margin-top: 30px;
+}
+
+.offers1 div{
+    margin-left: 50px;
+    margin-top: 70px;
+    width: 100%
+}
+
+#main-container{
+    margin: 150px auto;
+    width: 600px;
+}
+
+.offers1 h4{
+    width: 100%;
+    margin-top: -40px;
+    margin-left: 50px;
+}
+
+.offers1 table{
+    width: 100%;
+    background-color: #bedab1;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.offers1 th, td{
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.offers1 thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+
+.offers1 tr:nth-child(even){
+    background-color: #ddd;
+}
+
+.offers1 tr:hover td{
+    background-color: #369681;
+    color: white;
+}
