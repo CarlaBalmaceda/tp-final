@@ -1,100 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300;1,400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300;1,400&display=swap');
 
-*{
-  padding: 0;
-  margin: 0;
-  font-family: font-family: 'Roboto Condensed', sans-serif;;
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: font-family: 'Roboto Condensed', sans-serif;;
 }
 
 header{
-  display: flex;
-  justify-content: space-around;
-  background-color: darkslategray;
-  align-items:center;
+    display: flex;
+    justify-content: space-around;
+    background-color: darkslategray;
+    align-items:center;
 }
 a{
-  margin-left: 50px;
-  text-decoration: none;
-  color: black;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
 }
 .logo{
-  display: flex;
-  height: 15vh;
-  width: 15vh;
+    display: flex;
+    height: 15vh;
+    width: 15vh;
 }
 .hero h1{
-  position: absolute;
-  left: 50vh;
-  bottom: 45vh;
-  font-size: 80px;
-  color: black;
+    position: absolute;
+    left: 50vh;
+    bottom: 45vh;
+    font-size: 80px;
+    color: black;
+}
+.hero{
+    background-attachment: fixed;
+    height: 85vh;
+    background-image: url(hero2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .hero h2{
-  position: absolute;
-  left: 50vh;
-  bottom: 40vh;
-  font-size: 30px;
+    position: absolute;
+    left: 50vh;
+    bottom: 40vh;
+    font-size: 30px;
 }
 .hero p{
-  position: absolute;
-  left: 50vh;
-  bottom: 35vh;
-  font-size: 30px;
-}
-.hero img{
-  width: 225vh;
-  height: 85vh;
+    position: absolute;
+    left: 50vh;
+    bottom: 35vh;
+    font-size: 30px;
 }
 .actividades{
-  display:flex;
-  justify-content: center;
-  margin-top: 5vh;
-  padding: 5vh;
+    display:flex;
+    justify-content: center;
+    margin-top: 5vh;
+    padding: 5vh;
 }
 .titulo{
-  display:inline-block;
-  height: 60px;
-  margin-left: 100px;
+    display:inline-block;
+    height: 60px;
+    margin-left: 100px;
 }
 
 .titulo h1{
- font-size: 50px;
- font-weight: bold;
- color: black;
- margin-left: 55vh;
- position: absolute;
+   font-size: 50px;
+   font-weight: bold;
+   color: black;
+   margin-left: 55vh;
+   position: absolute;
 }
 .cuadrado1 img{
-  margin-left: 10vh;
+    margin-left: 10vh;
 }
 
 .cuadrado1, .cuadrado2, .cuadrado2 {
-  margin-right: 5vh;
+    margin-right: 5vh;
 } 
 
 .animar2 {
-  color: white;
-  background-color: darkslategrey;
-  width: 17rem;
-  height: 5rem;
-  font-size: 1.5rem;
-  font-weight: 600;
-  border-radius: 10px;
-  border-style: none;
-  cursor: pointer;
-  margin-top:4%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    color: white;
+    background-color: darkslategrey;
+    width: 17rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    margin-top:4%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .animar2:hover {
-  transition: .3s;
-  background-color: darkolivegreen;
-  box-shadow: 0px 0px
-  15px #2f4f4f 0px 0px 15px white;
+    transition: .3s;
+    background-color: darkolivegreen;
+    box-shadow: 0px 0px
+    15px #2f4f4f 0px 0px 15px white;
 }
-
 .rectangulo{
     position: absolute;
     z-index: -1;
@@ -237,6 +239,7 @@ a{
     background-color: #bedab1;
     text-align: left;
     border-collapse: collapse;
+    padding: 0%;
 }
 
 .offers1 th, td{
