@@ -195,3 +195,76 @@ h1 {
      margin-top: 5px;
  }                                         /*Caja 4 Final*/
  
+.contact{
+  padding: 20vh;
+}
+
+.contact{
+  font-family:'Courier New', Courier, monospace;
+
+}
+
+.contact h1{
+  color: darkslategrey;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-left: 70vh;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label{
+  margin-bottom: 5px;
+}
+
+input[type="text"],input[type="email"],textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: darkslategrey;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 30vh;
+  width: 200px;
+}
+
+
+.name{
+  width: 250px;
+}
+
+.mail{
+  width: 250px;
+}
+
+textarea{
+  height: 200px;
+}
+
+input, textarea{
+  box-shadow: 1px 1px 5px 1px darkslategrey;
+  outline: none;
+}
