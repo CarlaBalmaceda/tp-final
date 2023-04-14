@@ -110,6 +110,7 @@ h1 {
     border-style: none ;
     font-weight: bold;
     color: #3db39f;
+    cursor: pointer;
 }                                          /*Caja 2 Final*/
 
 .caja3f {                                  /*Caja 3 Inicio*/
@@ -363,14 +364,10 @@ input, textarea{
 
 .social{
   background: linear-gradient(70deg, darkslategrey, darkslategrey, darkslategrey);
-  height: 30vh;
+  height: 20vh;
   display: flex;
 }
 
-.social img{
-  margin: 0;
-  height: 30vh;
-}
 
 .social div{
   margin-left: 45vh;
@@ -380,14 +377,10 @@ input, textarea{
 i{
   color: white;
   font-size: 30px;
-  margin-left: 20px;
+  margin-left: 50vh;
 }
 
-.copyright{
-  padding: 3vh;
-}
 
-.copyright p{
-  margin-left: 86vh;
-  color: darkslategrey;
-}
+
+
+
