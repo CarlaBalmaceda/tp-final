@@ -287,9 +287,15 @@ h1 {
 
 .contact{
   font-family:'Courier New', Courier, monospace;
-
+  background-image: url(contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.contact label{
+  text-shadow: 0 2px 10px white;
+  color: darkslategrey;
+}
 .contact h1{
   color: darkslategrey;
   font-size: 50px;
