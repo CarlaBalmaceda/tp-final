@@ -1,5 +1,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
 
+
 *{
     padding: 0;
     margin: 0;
@@ -196,6 +197,80 @@ h1 {
      margin-top: 5px;
  }                                         /*Caja 4 Final*/
  
+ .offers1{
+  display: flex;
+  margin-top: 100px;
+  margin-left: -45px;
+}
+
+.offers1 p, .offers1 h1{
+  margin-right: 100px;
+}
+
+.offers1 p{
+  margin-top: 30px;
+}
+
+.offers1 div{
+  margin-left: 50px;
+  margin-top: 70px;
+  width: 100%
+}
+
+#main-container{
+  margin: 150px auto;
+  width: 600px;
+}
+
+.offers1 h4{
+  width: 100%;
+  margin-top: -40px;
+  margin-left: 50px;
+}
+
+.offers1 table{
+  width: 100%;
+  background-color: #bedab1;
+  text-align: left;
+  border-collapse: collapse;
+  padding: 0%;
+}
+
+.offers1 th, td{
+  border: solid 1px black;
+  padding: 10px;
+}
+
+.offers1 thead{
+  background-color: #246355;
+  border-bottom: solid 5px #0F362D;
+  color: white;
+}
+
+.offers1 tr:nth-child(even){
+  background-color: #ddd;
+}
+
+.offers1 tr:hover td{
+  background-color: #369681;
+  color: white;
+}
+.tablas{
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 0 2px 10px #3db39f;
+}
+.tablas2{
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 0 2px 10px #3db39f;
+}
  .contact{
   padding: 20vh;
 }
