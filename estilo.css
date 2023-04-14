@@ -46,7 +46,7 @@ a:hover {
 
 .caja1f {                                        /*Caja 1 Inicio*/
     height: 100vh ;
-    background-image: url(imgs/hero.jpg);
+    background-image: url(hero.jpg);
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center ;
