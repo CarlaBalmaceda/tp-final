@@ -344,3 +344,34 @@ input, textarea{
   box-shadow: 1px 1px 5px 1px darkslategrey;
   outline: none;
 }
+
+.social{
+  background: linear-gradient(70deg, darkslategrey, darkslategrey, darkslategrey);
+  height: 30vh;
+  display: flex;
+}
+
+.social img{
+  margin: 0;
+  height: 30vh;
+}
+
+.social div{
+  margin-left: 45vh;
+  margin-top: 15vh;
+}
+
+i{
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.copyright{
+  padding: 3vh;
+}
+
+.copyright p{
+  margin-left: 86vh;
+  color: darkslategrey;
+}
